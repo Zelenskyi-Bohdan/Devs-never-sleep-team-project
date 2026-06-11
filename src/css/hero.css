@@ -4,8 +4,7 @@
   padding-top: 183px;
   padding-bottom: 179px;
 
-  min-width: 320px;
-  max-width: 375px;
+  width: 100%;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,4 +66,42 @@
 .hero-section-btn:focus {
   background-color: #5e8a4d;
   border: none;
+}
+
+@media screen and (min-resolution: 195dpi) {
+  .hero-section {
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      url(/img/hero-section-img/hero-image-m@2x.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    max-width: 768px;
+
+    padding-top: 234px;
+    padding-bottom: 234px;
+
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      url(/img/hero-section-img/hero-image-t.jpg);
+  }
+
+  .hero-container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .hero-section-btn {
+    width: 254px;
+    height: 36px;
+  }
 }
