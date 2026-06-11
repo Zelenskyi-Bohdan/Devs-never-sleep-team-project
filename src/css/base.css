@@ -59,6 +59,10 @@
   --color-error-red: #a00000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Public Sans', 'Chivo', sans-serif;
   color: #010400;
