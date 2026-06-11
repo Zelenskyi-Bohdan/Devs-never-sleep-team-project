@@ -27,26 +27,38 @@
     </address>
     <form class="contacts__form" action="post">
       <div class="contacts-form__row">
-        <label for="contacts-form-name"></label>
+        <label for="contacts-form-name">Name</label>
         <input
           class="contacts-form__name"
           id="contacts-form-name"
           type="text"
+          name="name"
+          pattern="^[a-zA-Z\s.]{5,64}$"
+          required
         />
       </div>
       <div class="contacts-form__row">
-        <label for="contacts-form-email"></label>
+        <label for="contacts-form-email">Email</label>
         <input
           class="contacts-form__email"
           id="contacts-form-email"
+          pattern="([A-Za-z0-9_.-]{1,})@([A-Za-z0-9_.-]{1,}).([A-Za-z]{2,8})"
           type="email"
+          name="email"
+          required
+          autocomplete="off"
         />
       </div>
       <div class="contacts-form__row">
-        <label for="contacts-form-message"></label>
+        <label for="contacts-form-message">Message</label>
         <textarea
           class="contacts-form__message"
           id="contacts-form-message"
+          name="comment"
+          placeholder="Type your message..."
+          required
+          maxlength="500"
+          autocomplete="off"
         ></textarea>
       </div>
       <button
