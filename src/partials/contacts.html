@@ -1,7 +1,7 @@
-<section class="contacts-section">
+<section class="contacts-section" id="contacts-section">
   <div class="container contacts-container">
     <div class="contacts__title-section">
-      <h3 class="tagline">Contacts</h3>
+      <h3 class="contacts__tagline">Contacts</h3>
       <h2 class="contacts__title">Get in Touch</h2>
       <p class="contacts__description">We'd love to hear from you anytime!</p>
     </div>
@@ -29,7 +29,7 @@
       <div class="contacts-form__row">
         <label for="contacts-form-name">Name</label>
         <input
-          class="contacts-form__name"
+          class="contacts-form__input"
           id="contacts-form-name"
           type="text"
           name="name"
@@ -40,19 +40,18 @@
       <div class="contacts-form__row">
         <label for="contacts-form-email">Email</label>
         <input
-          class="contacts-form__email"
+          class="contacts-form__input"
           id="contacts-form-email"
-          pattern="([A-Za-z0-9_.-]{1,})@([A-Za-z0-9_.-]{1,}).([A-Za-z]{2,8})"
+          pattern="([A-Za-z0-9_.-]{1,})@([A-Za-z0-9_.-]{1,})\.([A-Za-z]{2,8})"
           type="email"
           name="email"
           required
-          autocomplete="off"
         />
       </div>
       <div class="contacts-form__row">
         <label for="contacts-form-message">Message</label>
         <textarea
-          class="contacts-form__message"
+          class="contacts-form__input"
           id="contacts-form-message"
           name="comment"
           placeholder="Type your message..."
