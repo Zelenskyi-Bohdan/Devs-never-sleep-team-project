@@ -120,6 +120,7 @@ input:-webkit-autofill:focus:invalid {
 }
 
 .contacts-form__submit-btn {
+  max-width: 343px;
   border: 1px solid var(--color-japanese-laurel);
   border-radius: 6px;
   padding-block: 6px;
@@ -139,4 +140,8 @@ input:-webkit-autofill:focus:invalid {
   color: var(--color-neutral-darkest);
   border-color: var(--color-white);
   background: var(--color-scheme-3-text);
+}
+
+.contacts__img {
+  width: 100%;
 }

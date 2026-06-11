@@ -8,7 +8,7 @@
     <address class="contacts__address">
       <ul class="contacts__address-list">
         <li class="contacts__address-item">
-          <svg width="20" height="16" aria-hidden="true">
+          <svg width="24" height="24" aria-hidden="true">
             <use href="/img/icons.svg#icon-envelope"></use>
           </svg>
           <a class="contacts__address-link" href="mailto:hello@organicstore.com"
@@ -16,7 +16,7 @@
           >
         </li>
         <li class="contacts__address-item">
-          <svg width="19" height="19" aria-hidden="true">
+          <svg width="24" height="24" aria-hidden="true">
             <use href="/img/icons.svg#icon-phone"></use>
           </svg>
           <a class="contacts__address-link" href="tel:+15553291024"
@@ -35,6 +35,7 @@
           name="name"
           pattern="^[a-zA-Z\s.]{5,64}$"
           required
+          placeholder="Sarah"
         />
       </div>
       <div class="contacts-form__row">
@@ -46,6 +47,7 @@
           type="email"
           name="email"
           required
+          placeholder="hello@organic.com"
         />
       </div>
       <div class="contacts-form__row">
@@ -84,6 +86,7 @@
         "
       />
       <img
+        class="contacts__img"
         srcset="
           /img/contacts/contacts_m.webp    1x,
           /img/contacts/contacts_m_2x.webp 2x
