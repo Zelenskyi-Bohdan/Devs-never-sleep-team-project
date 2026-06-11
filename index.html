@@ -32,7 +32,97 @@
       
       
       
-      
+      <section class="contacts-section">
+  <div class="container contacts-container">
+    <div class="contacts__title-section">
+      <h3 class="tagline">Contacts</h3>
+      <h2 class="contacts__title">Get in Touch</h2>
+      <p class="contacts__description">We'd love to hear from you anytime!</p>
+    </div>
+    <address class="contacts__address">
+      <ul class="contacts__address-list">
+        <li class="contacts__address-item">
+          <svg width="20" height="16" aria-hidden="true">
+            <use href="/Devs-never-sleep-team-project/assets/icons-DO5OFClb.svg#icon-envelope"></use>
+          </svg>
+          <a class="contacts__address-link" href="mailto:hello@organicstore.com"
+            >hello@organicstore.com</a
+          >
+        </li>
+        <li class="contacts__address-item">
+          <svg width="19" height="19" aria-hidden="true">
+            <use href="/Devs-never-sleep-team-project/assets/icons-DO5OFClb.svg#icon-phone"></use>
+          </svg>
+          <a class="contacts__address-link" href="tel:+15553291024"
+            >+1 (555) 329-1024</a
+          >
+        </li>
+      </ul>
+    </address>
+    <form class="contacts__form" action="#" method="post">
+      <div class="contacts-form__row">
+        <label for="contacts-form-name">Name</label>
+        <input
+          class="contacts-form__name"
+          id="contacts-form-name"
+          type="text"
+          name="name"
+          pattern="^[a-zA-Z\s.]{5,64}$"
+          required
+        />
+      </div>
+      <div class="contacts-form__row">
+        <label for="contacts-form-email">Email</label>
+        <input
+          class="contacts-form__email"
+          id="contacts-form-email"
+          pattern="([A-Za-z0-9_.-]{1,})@([A-Za-z0-9_.-]{1,}).([A-Za-z]{2,8})"
+          type="email"
+          name="email"
+          required
+          autocomplete="off"
+        />
+      </div>
+      <div class="contacts-form__row">
+        <label for="contacts-form-message">Message</label>
+        <textarea
+          class="contacts-form__message"
+          id="contacts-form-message"
+          name="comment"
+          placeholder="Type your message..."
+          required
+          maxlength="500"
+          autocomplete="off"
+        ></textarea>
+      </div>
+      <button
+        class="contacts-form__submit-btn"
+        id="contacts-form-submit-btn"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="/Devs-never-sleep-team-project/assets/contacts_d-BOFNKWNo.webp 1x, /Devs-never-sleep-team-project/assets/contacts_d_2x-BpqK6Ijg.webp 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/Devs-never-sleep-team-project/assets/contacts_t-Dak64g8v.webp 1x, /Devs-never-sleep-team-project/assets/contacts_t_2x-DAHald60.webp 2x"
+      />
+      <img
+        srcset="/Devs-never-sleep-team-project/assets/contacts_m-p47NEBTY.webp 1x, /Devs-never-sleep-team-project/assets/contacts_m_2x-CjO6fnAa.webp 2x"
+        src="/Devs-never-sleep-team-project/assets/contacts_m-p47NEBTY.webp"
+        width="644"
+        height="757"
+        alt="Our friendly team ready to help you"
+      />
+    </picture>
+  </div>
+</section>
+
     </main>
 
     
