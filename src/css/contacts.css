@@ -145,3 +145,26 @@ input:-webkit-autofill:focus:invalid {
 .contacts__img {
   width: 100%;
 }
+
+@media (min-width: 1440px) {
+  .contacts-container {
+    padding-block: 112px;
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  .contacts__main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex: 1 0 0;
+  }
+
+  .contacts__title {
+    font-size: 48px;
+  }
+
+  .contacts__img {
+    flex: 1 0 0;
+  }
+}
