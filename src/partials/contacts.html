@@ -1,0 +1,87 @@
+<section class="contacts-section">
+  <div class="container contacts-container">
+    <div class="contacts__title-section">
+      <h3 class="tagline">Contacts</h3>
+      <h2 class="contacts__title">Get in Touch</h2>
+      <p class="contacts__description">We'd love to hear from you anytime!</p>
+    </div>
+    <address class="contacts__address">
+      <ul class="contacts__addres-list">
+        <li class="contacts__address-item">
+          <svg width="20" height="16">
+            <use xlink:href=""></use>
+          </svg>
+          <a class="contacts__addres-email" href="mailto:hello@organicstore.com"
+            >hello@organicstore.com</a
+          >
+        </li>
+        <li class="contacts__address-item">
+          <svg width="19" height="19">
+            <use xlink:href=""></use>
+          </svg>
+          <a class="contacts__addres-email" href="tel:+15553291024"
+            >+1 (555) 329-1024</a
+          >
+        </li>
+      </ul>
+    </address>
+    <form class="contacts__form" action="post">
+      <div class="contacts-form__row">
+        <label for="contacts-form-name"></label>
+        <input
+          class="contacts-form__name"
+          id="contacts-form-name"
+          type="text"
+        />
+      </div>
+      <div class="contacts-form__row">
+        <label for="contacts-form-email"></label>
+        <input
+          class="contacts-form__email"
+          id="contacts-form-email"
+          type="email"
+        />
+      </div>
+      <div class="contacts-form__row">
+        <label for="contacts-form-message"></label>
+        <textarea
+          class="contacts-form__message"
+          id="contacts-form-message"
+        ></textarea>
+      </div>
+      <button
+        class="contacts-form__submit-btn"
+        id="contacts-form-submit-btn"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          /img/contacts/contacts_d.webp    1x,
+          /img/contacts/contacts_d_2x.webp 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          /img/contacts/contacts_t.webp    1x,
+          /img/contacts/contacts_t_2x.webp 2x
+        "
+      />
+      <img
+        srcset="
+          /img/contacts/contacts_m.webp    1x,
+          /img/contacts/contacts_m_2x.webp 2x
+        "
+        src="/img/contacts/contacts_m.webp"
+        width="644"
+        height="757"
+        alt="Our friendly team ready to help you"
+      />
+    </picture>
+  </div>
+</section>
