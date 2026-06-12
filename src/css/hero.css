@@ -1,10 +1,8 @@
 .hero-section {
-  background-color: #010400;
+  background-color: var(--color-neutral-darkest);
 
   padding-top: 183px;
   padding-bottom: 179px;
-
-  width: 100%;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,8 +11,8 @@
   background-image:
     linear-gradient(
       180deg,
-      rgba(46, 47, 66, 0.7) 0%,
-      rgba(46, 47, 66, 0.7) 100%
+      var(--opacity-neutral-darkest-40) 0%,
+      var(--opacity-neutral-darkest-40) 100%
     ),
     url(/img/hero-section-img/hero-image-m.jpg);
 }
@@ -31,7 +29,7 @@
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  color: #fff;
+  color: var(--color-white);
 }
 .hero-section-text {
   margin-bottom: 16px;
@@ -39,12 +37,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: #fff;
+  color: var(--color-white);
 }
 .hero-section-btn {
   padding: 6px 32px;
 
-  border: 1px solid #fff;
+  border: 1px solid var(--color-white);
   border-radius: 6px;
 
   cursor: pointer;
@@ -52,12 +50,12 @@
   width: 100%;
   height: 40px;
 
-  background-color: #fff;
+  background-color: var(--color-white);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #010400;
+  color: var(--color-neutral-darkest);
 
   text-align: center;
 
@@ -66,13 +64,19 @@
 
 .hero-section-btn:hover,
 .hero-section-btn:focus {
-  background-color: #5e8a4d;
+  background-color: var(--color-japanese-laurel-light);
   border: none;
 }
 
 @media screen and (min-resolution: 195dpi) {
   .hero-section {
-    background-image: url(/img/hero-section-img/hero-image-m@2x.jpg);
+    background-image:
+      linear-gradient(
+        180deg,
+        var(--opacity-neutral-darkest-40) 0%,
+        var(--opacity-neutral-darkest-40) 100%
+      ),
+      url(/img/hero-section-img/hero-image-m@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -82,13 +86,18 @@
     padding-top: 234px;
     padding-bottom: 234px;
 
-    background-image: url(/img/hero-section-img/hero-image-t.jpg);
+    background-image:
+      linear-gradient(
+        180deg,
+        var(--opacity-neutral-darkest-40) 0%,
+        var(--opacity-neutral-darkest-40) 100%
+      ),
+      url(/img/hero-section-img/hero-image-t.jpg);
   }
 
   .hero-container {
     max-width: 611px;
 
-    display: flex;
     align-items: flex-start;
     text-align: left;
   }
@@ -101,7 +110,13 @@
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url(/img/hero-section-img/hero-image-t@2x.jpg);
+    background-image:
+      linear-gradient(
+        180deg,
+        var(--opacity-neutral-darkest-40) 0%,
+        var(--opacity-neutral-darkest-40) 100%
+      ),
+      url(/img/hero-section-img/hero-image-t@2x.jpg);
   }
 }
 
@@ -112,7 +127,13 @@
     padding-top: 326px;
     padding-bottom: 326px;
 
-    background-image: url(/img/hero-section-img/hero-image-d.jpg);
+    background-image:
+      linear-gradient(
+        180deg,
+        var(--opacity-neutral-darkest-40) 0%,
+        var(--opacity-neutral-darkest-40) 100%
+      ),
+      url(/img/hero-section-img/hero-image-d.jpg);
   }
 
   .hero-section-title {
@@ -126,6 +147,12 @@
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .hero-section {
-    background-image: url(/img/hero-section-img/hero-image-d@2x.jpg);
+    background-image:
+      linear-gradient(
+        180deg,
+        var(--opacity-neutral-darkest-40) 0%,
+        var(--opacity-neutral-darkest-40) 100%
+      ),
+      url(/img/hero-section-img/hero-image-d@2x.jpg);
   }
 }
