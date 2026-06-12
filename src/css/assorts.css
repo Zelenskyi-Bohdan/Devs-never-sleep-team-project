@@ -1,0 +1,125 @@
+.assortment-section {
+  background: var(--color-scheme-4-background);
+}
+
+.assortment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.assortment-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 344px;
+}
+
+.assortment-caption-subtitle {
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-scheme-4-text);
+}
+
+.assortment-caption-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--color-scheme-4-text);
+}
+
+.assortment-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.assortment-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.assortment-list-image {
+  object-fit: cover;
+}
+
+.assortment-list-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.assortment-list-caption {
+  display: flex;
+  flex-direction: column;
+  width: 269px;
+}
+
+.assortment-list-caption-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-scheme-4-text);
+}
+
+.assortment-list-caption-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-scheme-4-text);
+}
+
+.assortment-list-price {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.assortment-list-price-value {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--color-scheme-4-text);
+}
+
+.assortment-list-price-text {
+  font-size: 10px;
+  line-height: 1.3;
+  text-align: right;
+  color: var(--color-scheme-4-text);
+}
+
+.assortment-list-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid var(--opacity-neutral-darkest-15);
+  border-radius: 6px;
+  padding: 4px 10px;
+  width: 343px;
+  height: 40px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-neutral-darkest);
+}
+
+/* Styles for Tablet devices */
+@media (min-width: 768px) {
+  .assortment-container {
+    gap: 24px;
+  }
+}
+/* Styles for Desktop devices */
+@media (min-width: 1440px) {
+  .assortment-container {
+    align-items: center;
+    gap: 32px;
+    padding: 112px 0;
+  }
+}
