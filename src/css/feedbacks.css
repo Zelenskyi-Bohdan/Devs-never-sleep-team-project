@@ -1,0 +1,82 @@
+.feedbacks {
+  background-color: #e8eee5;
+}
+
+.feedbacks-container {
+  padding: 64px 0 0 0;
+}
+
+.feedbacks-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.feedbacks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.feedbacks-title {
+  color: #010400;
+  margin-bottom: 16px;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+}
+
+.feedbacks-description {
+  color: #010400;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 24px;
+}
+
+.feedbacks-item {
+  min-height: 314px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  margin: 0 16px;
+  border: 1px solid rgba(1, 4, 0, 0.15);
+}
+
+.feedbacks-stars use {
+  stroke: #000;
+}
+
+.feedbacks-stars {
+  margin-bottom: 24px;
+  gap: 4px;
+  display: flex;
+}
+
+.feedbacks-text {
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.feedbacks-author {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+
+.feedbacks-name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
