@@ -44,7 +44,7 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--color-scheme-4-text);
-  transition: opacity 250ms ease;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts__address-link:hover {
@@ -80,8 +80,8 @@
   background: var(--opacity-transparent);
   outline: none;
   transition:
-    color 250ms ease,
-    border-color 250ms ease;
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-form__input:not(:placeholder-shown):invalid {
@@ -130,9 +130,9 @@ input:-webkit-autofill:focus:invalid {
   color: var(--color-white);
   background: var(--color-japanese-laurel);
   transition:
-    background 250ms ease,
-    border-color 250ms ease,
-    color 250ms ease;
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-form__submit-btn:hover,
