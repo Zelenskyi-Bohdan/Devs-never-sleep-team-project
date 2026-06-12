@@ -99,6 +99,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  margin-top: auto;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid var(--opacity-neutral-darkest-15);
   border-radius: 6px;
