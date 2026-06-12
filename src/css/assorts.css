@@ -26,6 +26,7 @@
 }
 
 .assortment-caption-title {
+  font-family: var(--second-family);
   font-weight: 400;
   font-size: 36px;
   line-height: 1.2;
