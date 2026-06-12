@@ -1,6 +1,9 @@
 .hero-section {
   background-color: var(--color-neutral-darkest);
 
+  /* Дивний бордер */
+  /* border: 1px solid #000; */
+
   padding-top: 183px;
   padding-bottom: 179px;
 
@@ -40,7 +43,7 @@
   line-height: 1.5;
   color: var(--color-white);
 }
-.hero-section-btn {
+.hero-section-link {
   padding: 6px 32px;
 
   border: 1px solid var(--color-white);
@@ -63,10 +66,14 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-section-btn:hover,
-.hero-section-btn:focus {
-  background-color: var(--color-japanese-laurel-light);
+.hero-section-link:hover,
+.hero-section-link:focus {
+  background: var(--color-scheme-1-background);
   border: none;
+}
+
+.hero-section-link:active {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 @media screen and (min-resolution: 195dpi) {
@@ -103,7 +110,7 @@
     text-align: left;
   }
 
-  .hero-section-btn {
+  .hero-section-link {
     width: 254px;
     height: 36px;
   }
@@ -141,7 +148,7 @@
     font-size: 56px;
   }
 
-  .hero-section-btn {
+  .hero-section-link {
     width: 199px;
   }
 }
