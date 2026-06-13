@@ -1,0 +1,105 @@
+<section class="contacts-section" id="contacts">
+  <div class="container contacts-container">
+    <div class="contacts__main-content">
+      <div class="contacts__title-section">
+        <h3 class="contacts__tagline">Contacts</h3>
+        <h2 class="contacts__title">Get in Touch</h2>
+        <p class="contacts__description">We'd love to hear from you anytime!</p>
+      </div>
+      <address class="contacts__address">
+        <ul class="contacts__address-list">
+          <li class="contacts__address-item">
+            <svg width="24" height="24" aria-hidden="true">
+              <use href="/img/icons.svg#icon-envelope"></use>
+            </svg>
+            <a
+              class="contacts__address-link"
+              href="mailto:hello@organicstore.com"
+              >hello@organicstore.com</a
+            >
+          </li>
+          <li class="contacts__address-item">
+            <svg width="24" height="24" aria-hidden="true">
+              <use href="/img/icons.svg#icon-phone"></use>
+            </svg>
+            <a class="contacts__address-link" href="tel:+15553291024"
+              >+1 (555) 329-1024</a
+            >
+          </li>
+        </ul>
+      </address>
+      <form class="contacts__form" action="#" method="post">
+        <div class="contacts-form__row">
+          <label for="contacts-form-name">Name</label>
+          <input
+            class="contacts-form__input"
+            id="contacts-form-name"
+            type="text"
+            name="name"
+            pattern="^[a-zA-Z\s.]{5,64}$"
+            required
+            placeholder="Sarah"
+          />
+        </div>
+        <div class="contacts-form__row">
+          <label for="contacts-form-email">Email</label>
+          <input
+            class="contacts-form__input"
+            id="contacts-form-email"
+            pattern="[A-Za-z0-9_.\-]+@[A-Za-z0-9_.\-]+\.[A-Za-z]{2,8}"
+            type="email"
+            name="email"
+            required
+            placeholder="hello@organic.com"
+          />
+        </div>
+        <div class="contacts-form__row">
+          <label for="contacts-form-message">Message</label>
+          <textarea
+            class="contacts-form__input"
+            id="contacts-form-message"
+            name="comment"
+            placeholder="Type your message..."
+            required
+            maxlength="500"
+            autocomplete="off"
+          ></textarea>
+        </div>
+        <button
+          class="contacts-form__submit-btn"
+          id="contacts-form-submit-btn"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          /img/contacts/contacts_d.webp    1x,
+          /img/contacts/contacts_d_2x.webp 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          /img/contacts/contacts_t.webp    1x,
+          /img/contacts/contacts_t_2x.webp 2x
+        "
+      />
+      <img
+        class="contacts__img"
+        srcset="
+          /img/contacts/contacts_m.webp    1x,
+          /img/contacts/contacts_m_2x.webp 2x
+        "
+        src="/img/contacts/contacts_m.webp"
+        width="644"
+        height="757"
+        alt="Our friendly team ready to help you"
+      />
+    </picture>
+  </div>
+</section>
