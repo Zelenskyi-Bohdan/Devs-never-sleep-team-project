@@ -1,5 +1,5 @@
 .feedbacks {
-  background-color: #e8eee5;
+  background-color: var(--color-japanese-laurel-lightest);
 }
 
 .feedbacks_container {
@@ -28,12 +28,12 @@
   font-size: 36px;
   font-weight: 400;
   letter-spacing: -0.01em;
-  line-height: 120%;
+  line-height: 1.2;
 }
 
 .feedbacks_description {
   font-size: 18px;
-  line-height: 150%;
+  line-height: 1.5;
   font-weight: 400;
   margin-bottom: 24px;
 }
@@ -60,7 +60,7 @@
 
 .feedbacks_text {
   font-size: 18px;
-  line-height: 150%;
+  line-height: 1.5;
   font-weight: 400;
 }
 
@@ -73,7 +73,7 @@
 .feedbacks_name {
   margin-left: 16px;
   font-weight: 600;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 @media only screen and (min-width: 768px) {
@@ -97,12 +97,11 @@
   }
 
   .feedbacks_item {
-    margin: 0;
     width: calc((100% - 24px) / 2);
   }
 }
 
-@media (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   .feedbacks_container {
     padding: 112px 64px;
   }
@@ -110,7 +109,6 @@
   .feedbacks_title {
     margin-bottom: 24px;
     font-size: 48px;
-    line-height: 120%;
   }
 
   .feedbacks_description {
@@ -118,7 +116,6 @@
   }
 
   .feedbacks_item {
-    margin: 0;
     width: calc((100% - 72px) / 4);
   }
 }
