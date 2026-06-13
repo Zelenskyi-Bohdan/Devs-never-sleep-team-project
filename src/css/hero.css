@@ -87,10 +87,7 @@
 }
 @media screen and (min-width: 768px) {
   .hero-section {
-    /* width: 100%; */
-
-    padding-top: 234px;
-    padding-bottom: 234px;
+    padding-block: 234px;
 
     background-size: 768px;
 
@@ -130,10 +127,7 @@
 
 @media screen and (min-width: 1440px) {
   .hero-section {
-    /* width: 100%; */
-
-    padding-top: 326px;
-    padding-bottom: 326px;
+    padding-block: 326px;
 
     background-size: 1440px 900px;
 
