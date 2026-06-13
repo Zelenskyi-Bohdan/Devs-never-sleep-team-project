@@ -23,12 +23,14 @@
 }
 
 .footer__nav {
-  display: none;
+  display: block;
 }
 
 .footer__nav-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .footer__nav-link {
@@ -88,6 +90,7 @@
   }
 
   .footer__nav-list {
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px 20px;
