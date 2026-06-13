@@ -2,11 +2,12 @@
   background-color: #e8eee5;
 }
 
-.feedbacks-container {
-  padding: 64px 0 0 0;
+.feedbacks_container {
+  color: var(--color-scheme-2-text);
+  padding: 64px 16px;
 }
 
-.feedbacks-title-container {
+.feedbacks_title_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,14 +16,14 @@
   text-align: center;
 }
 
-.feedbacks-list {
+.feedbacks_list {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.feedbacks-title {
-  color: #010400;
+.feedbacks_title {
+  font-family: Chivo;
   margin-bottom: 16px;
   font-size: 36px;
   font-weight: 400;
@@ -30,53 +31,94 @@
   line-height: 120%;
 }
 
-.feedbacks-description {
-  color: #010400;
+.feedbacks_description {
   font-size: 18px;
   line-height: 150%;
   font-weight: 400;
-  letter-spacing: 0;
   margin-bottom: 24px;
 }
 
-.feedbacks-item {
+.white_star {
+  fill: transparent;
+  stroke: currentColor;
+}
+
+.feedbacks_item {
   min-height: 314px;
   display: flex;
   flex-direction: column;
   padding: 32px;
-  margin: 0 16px;
+  margin: 0;
   border: 1px solid rgba(1, 4, 0, 0.15);
 }
 
-.feedbacks-stars use {
-  stroke: #000;
-}
-
-.feedbacks-stars {
+.feedbacks_stars {
   margin-bottom: 24px;
   gap: 4px;
   display: flex;
 }
 
-.feedbacks-text {
+.feedbacks_text {
   font-size: 18px;
   line-height: 150%;
   font-weight: 400;
-  letter-spacing: 0;
 }
 
-.feedbacks-author {
+.feedbacks_author {
   margin-top: auto;
   display: flex;
   align-items: center;
 }
 
-.feedbacks-name {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+.feedbacks_name {
   margin-left: 16px;
   font-weight: 600;
   line-height: 150%;
+}
+
+@media only screen and (min-width: 768px) {
+  .feedbacks_container {
+    padding: 64px 32px;
+  }
+
+  .feedbacks_title_container {
+    max-width: 644px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .feedbacks_title {
+    margin-bottom: 24px;
+  }
+
+  .feedbacks_list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .feedbacks_item {
+    margin: 0;
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media (min-width: 1440px) {
+  .feedbacks_container {
+    padding: 112px 64px;
+  }
+
+  .feedbacks_title {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  .feedbacks_description {
+    margin-bottom: 80px;
+  }
+
+  .feedbacks_item {
+    margin: 0;
+    width: calc((100% - 72px) / 4);
+  }
 }
