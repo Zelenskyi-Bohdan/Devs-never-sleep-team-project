@@ -1,11 +1,10 @@
 .hero-section {
+  max-width: 375px;
+  margin: 0 auto;
   background-color: var(--color-neutral-darkest);
 
   /* Дивний бордер */
   /* border: 1px solid #000; */
-
-  padding-top: 183px;
-  padding-bottom: 179px;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,6 +19,9 @@
     url(/img/hero-section-img/hero-image-m.jpg);
 }
 .hero-container {
+  padding-top: 183px;
+  padding-bottom: 179px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,10 +91,7 @@
 }
 @media screen and (min-width: 768px) {
   .hero-section {
-    width: 100%;
-
-    padding-top: 234px;
-    padding-bottom: 234px;
+    max-width: 768px;
 
     /* Дивний бордер */
     /* border: 1px solid #000; */
@@ -107,7 +106,7 @@
   }
 
   .hero-container {
-    max-width: 611px;
+    padding-block: 234px;
 
     align-items: flex-start;
     text-align: left;
@@ -133,10 +132,7 @@
 
 @media screen and (min-width: 1440px) {
   .hero-section {
-    width: 100%;
-
-    padding-top: 326px;
-    padding-bottom: 326px;
+    max-width: 1440px;
 
     background-image:
       linear-gradient(
@@ -147,6 +143,9 @@
       url(/img/hero-section-img/hero-image-d.jpg);
   }
 
+  .hero-container {
+    padding-block: 326px;
+  }
   .hero-section-title {
     font-size: 56px;
   }

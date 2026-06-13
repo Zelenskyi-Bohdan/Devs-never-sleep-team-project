@@ -1,6 +1,4 @@
 .footer {
-  background-color: var(--color-scheme-5-background);
-  color: var(--color-scheme-5-text);
 }
 
 .footer__container {
@@ -8,6 +6,8 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  background-color: var(--color-scheme-5-background);
+  color: var(--color-scheme-5-text);
 }
 
 .footer__top {

@@ -59,8 +59,8 @@
   --color-error-red: #a00000;
 
   /*Font variables*/
-  --font-family: "Public Sans", sans-serif;
-  --second-family: "Chivo", sans-serif;
+  --font-family: 'Public Sans', sans-serif;
+  --second-family: 'Chivo', sans-serif;
 }
 
 html {
@@ -70,5 +70,6 @@ html {
 body {
   font-family: 'Public Sans', 'Chivo', sans-serif;
   color: #010400;
-  background-color: #5e8a4d;
+  background: var(--color-neutral-lightest);
+  /* background-color: #5e8a4d; */
 }

@@ -1,11 +1,8 @@
-.benefits {
-  padding: 64px 0;
+.benefits-container {
+  padding-block: 64px;
   background: var(--color-scheme-3-background);
   color: var(--color-scheme-3-text);
-  fill: var(--color-scheme-3-text);;
-}
-
-.benefits-container {
+  fill: var(--color-scheme-3-text);
   display: flex;
   flex-direction: column;
   gap: 24px;

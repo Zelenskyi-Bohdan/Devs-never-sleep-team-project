@@ -1,0 +1,70 @@
+.mission-container {
+  background: var(--color-scheme-1-background);
+}
+
+.mission-title {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--color-scheme-1-text);
+  padding-block: 64px;
+}
+
+.mission-text-desc {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 24px;
+  line-height: 1.5;
+  color: var(--color-scheme-1-text);
+}
+
+.mission-img {
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  .mission-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mission-title {
+    margin: 0;
+  }
+
+  .mission-text-desc {
+    max-width: 340px;
+    margin-top: 0;
+    letter-spacing: 0;
+  }
+
+  .mission-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mission-container {
+    padding-block: 120px;
+  }
+  .mission-text {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .mission-title {
+    font-size: 48px;
+    max-width: 644px;
+  }
+
+  .mission-text-desc {
+    margin-top: 0;
+    max-width: 644px;
+  }
+  .mission-img {
+    margin-top: 64px;
+  }
+}
