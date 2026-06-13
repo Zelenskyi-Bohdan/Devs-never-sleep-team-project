@@ -1,0 +1,138 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 6px 32px;
+}
+
+.header-burger {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-left: auto;
+}
+
+.burger-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #000000;
+}
+
+.header-nav {
+  display: none;
+}
+
+.header-nav-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-scheme-1-text);
+}
+
+.header-button-order {
+  display: none;
+  border: 1px solid var(--color-japanese-laurel);
+  border-radius: 6px;
+  padding: 4px 24px;
+  width: 92px;
+  height: 32px;
+  background: var(--color-japanese-laurel);
+}
+
+@media only screen and (min-width: 768px) {
+  .header-container {
+    padding: 6px 64px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 32px;
+  }
+
+  .header-burger {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding-left: 16px;
+  }
+
+  /* button Order */
+
+  .header-button-order {
+    display: flex;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-white);
+    border: 1px solid var(--color-japanese-laurel);
+    border-radius: 6px;
+    padding: 4px 24px;
+    width: 92px;
+    height: 32px;
+    background: var(--color-japanese-laurel);
+    cursor: pointer;
+    margin-left: auto;
+    text-decoration: none;
+  }
+
+  .header-button-order:hover,
+  .header-button-order:focus {
+    border: 1px solid var(--color-white);
+    border-radius: 6px;
+    padding: 4px 24px;
+    width: 92px;
+    height: 32px;
+    background: var(--color-scheme-3-text);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-neutral-darkest);
+  }
+}
+.header-button-order:active {
+  border: 1px solid var(--color-scheme-3-text);
+  border-radius: 6px;
+  padding: 4px 24px;
+  width: 92px;
+  height: 32px;
+  box-shadow: inset 2px 7px 27px -4px rgba(0, 0, 0, 0.15);
+  background: var(--color-scheme-3-text);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-scheme-2-text);
+}
+
+@media only screen and (min-width: 1440px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+    padding: 6px 128px;
+  }
+
+  .header-nav {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .header-button-order {
+    margin: 0;
+  }
+
+  .header-nav-list {
+    gap: 32px;
+    padding-right: 32px;
+  }
+
+  .burger-icon {
+    display: none;
+  }
+}
