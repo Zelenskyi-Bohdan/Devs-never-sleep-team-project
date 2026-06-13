@@ -76,7 +76,7 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
-@media screen and (min-resolution: 195dpi) {
+@media screen and (min-resolution: 192dpi) {
   .hero-section {
     background-image:
       linear-gradient(
