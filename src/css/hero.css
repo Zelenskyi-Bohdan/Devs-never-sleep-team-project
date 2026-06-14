@@ -23,7 +23,7 @@
 .hero-section-title {
   margin-bottom: 8px;
 
-  font-family: 'Chivo', sans-serif;
+  font-family: var(--second-family);
   font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
@@ -59,8 +59,8 @@
   text-align: center;
 
   transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color var(--transition),
+    border-color var(--transition);
 }
 
 .hero-section-link:hover,
