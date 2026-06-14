@@ -1,10 +1,13 @@
+.contacts-section {
+  background: var(--color-scheme-2-background);
+}
+
 .contacts-container {
   padding-block: 64px;
   display: flex;
   row-gap: 32px;
   flex-direction: column;
   color: var(--color-scheme-2-text);
-  background: var(--color-scheme-2-background);
   line-height: 1.5;
 }
 
