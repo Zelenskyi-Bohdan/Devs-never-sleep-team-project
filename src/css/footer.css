@@ -4,8 +4,7 @@
 }
 
 .footer__container {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-block: 80px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -15,12 +14,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
 }
 
 .footer__logo-icon {
   display: block;
   fill: var(--color-scheme-5-text);
+  width: 162px;
+  height: 70px;
 }
 
 .footer__nav-list {
@@ -95,4 +96,10 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 32px;
+  }
+
+  .footer__logo-icon {
+    width: 84px;
+    height: 36px;
+  }
 }
