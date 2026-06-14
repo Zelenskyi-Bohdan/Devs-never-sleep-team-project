@@ -41,6 +41,7 @@
 .white_star {
   fill: transparent;
   stroke: currentColor;
+  stroke-width: 2px;
 }
 
 .feedbacks_item {
