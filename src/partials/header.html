@@ -1,7 +1,12 @@
 <header class="header">
   <div class="container header-container">
-    <a href="index.html" class="header-logo-link">
-      <svg width="142" height="60" class="header-logo-organic-shop">
+    <a href="index.html" class="header-logo-link" aria-label="Logo">
+      <svg
+        width="142"
+        height="60"
+        class="header-logo-organic-shop"
+        aria-hidden="true"
+      >
         <use href="/img/icons.svg#icon-logo"></use>
       </svg>
     </a>
@@ -37,8 +42,13 @@
     <a href="#assortment" class="header-button-order">Order</a>
 
     <!-- burger -->
-    <button class="header-burger" type="button" id="open-burger-menu-btn">
-      <svg class="burger-icon" width="32" height="32">
+    <button
+      class="header-burger"
+      type="button"
+      id="open-burger-menu-btn"
+      aria-label="Menu"
+    >
+      <svg class="burger-icon" width="32" height="32" aria-hidden="true">
         <use href="/img/icons.svg#icon-menu"></use>
       </svg>
     </button>
