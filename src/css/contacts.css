@@ -15,7 +15,7 @@
 
 .contacts__title {
   margin-bottom: 24px;
-  font-family: Chivo;
+  font-family: var(--second-family);
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: -0.01em;
@@ -44,7 +44,7 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--color-scheme-4-text);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity var(--transition);
 }
 
 .contacts__address-link:hover {
@@ -80,8 +80,8 @@
   background: var(--opacity-transparent);
   outline: none;
   transition:
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color var(--transition),
+    border-color var(--transition);
 }
 
 .contacts-form__input:not(:placeholder-shown):invalid {
@@ -130,9 +130,9 @@ input:-webkit-autofill:focus:invalid {
   color: var(--color-white);
   background: var(--color-japanese-laurel);
   transition:
-    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background var(--transition),
+    border-color var(--transition),
+    color var(--transition);
 }
 
 .contacts-form__submit-btn:hover,

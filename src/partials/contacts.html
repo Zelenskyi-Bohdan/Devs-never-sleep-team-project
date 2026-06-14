@@ -1,9 +1,13 @@
-<section class="contacts-section" id="contacts">
+<section
+  class="contacts-section"
+  id="contacts"
+  aria-labelledby="contacts-title"
+>
   <div class="container contacts-container">
     <div class="contacts__main-content">
       <div class="contacts__title-section">
         <h3 class="contacts__tagline">Contacts</h3>
-        <h2 class="contacts__title">Get in Touch</h2>
+        <h2 class="contacts__title" id="contacts-title">Get in Touch</h2>
         <p class="contacts__description">We'd love to hear from you anytime!</p>
       </div>
       <address class="contacts__address">
@@ -28,7 +32,12 @@
           </li>
         </ul>
       </address>
-      <form class="contacts__form" action="#" method="post">
+      <form
+        class="contacts__form"
+        action="#"
+        method="post"
+        aria-label="Contact form"
+      >
         <div class="contacts-form__row">
           <label for="contacts-form-name">Name</label>
           <input
@@ -62,13 +71,18 @@
             placeholder="Type your message..."
             required
             maxlength="500"
+            aria-describedby="message-hint"
             autocomplete="off"
           ></textarea>
+          <span id="message-hint" class="visually-hidden"
+            >Maximum 500 characters</span
+          >
         </div>
         <button
           class="contacts-form__submit-btn"
           id="contacts-form-submit-btn"
           type="submit"
+          aria-label="Submit contact form"
         >
           Submit
         </button>
@@ -99,6 +113,7 @@
         width="644"
         height="757"
         alt="Our friendly team ready to help you"
+        loading="lazy"
       />
     </picture>
   </div>
