@@ -1,5 +1,5 @@
 .contacts-section {
-  background: var(--color-scheme-2-background);
+  background-color: var(--color-scheme-2-background);
 }
 
 .contacts-container {
@@ -80,7 +80,7 @@
   border-bottom: 1px solid var(--opacity-neutral-darkest-15);
   padding-block: 8px;
   padding-inline: 0px;
-  background: var(--opacity-transparent);
+  background-color: var(--opacity-transparent);
   outline: none;
   transition:
     color var(--transition),
@@ -131,9 +131,9 @@ input:-webkit-autofill:focus:invalid {
   font-size: 16px;
   font-weight: 500;
   color: var(--color-white);
-  background: var(--color-japanese-laurel);
+  background-color: var(--color-japanese-laurel);
   transition:
-    background var(--transition),
+    background-color var(--transition),
     border-color var(--transition),
     color var(--transition);
 }
@@ -142,7 +142,7 @@ input:-webkit-autofill:focus:invalid {
 .contacts-form__submit-btn:focus {
   color: var(--color-neutral-darkest);
   border-color: var(--color-white);
-  background: var(--color-scheme-3-text);
+  background-color: var(--color-scheme-3-text);
 }
 
 .contacts__img {
