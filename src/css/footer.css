@@ -35,7 +35,7 @@
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-scheme-1-text);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity var(--transition);
 }
 
 .footer__nav-link:hover,
@@ -58,7 +58,7 @@
 .footer__social-link {
   display: flex;
   fill: var(--color-scheme-5-text);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity var(--transition);
 }
 
 .footer__social-link:hover,

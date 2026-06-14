@@ -23,7 +23,7 @@
 }
 
 .feedbacks_title {
-  font-family: Chivo;
+  font-family: var(--second-family);
   margin-bottom: 16px;
   font-size: 36px;
   font-weight: 400;
