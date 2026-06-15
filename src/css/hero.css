@@ -97,7 +97,7 @@
         var(--opacity-neutral-darkest-40) 0%,
         var(--opacity-neutral-darkest-40) 100%
       ),
-      url(../img/hero-section-img/hero-image-t.webp);
+      url(/img/hero-section-img/hero-image-t.webp);
   }
 
   .hero-container {
@@ -137,7 +137,7 @@
         var(--opacity-neutral-darkest-40) 0%,
         var(--opacity-neutral-darkest-40) 100%
       ),
-      url(../img/hero-section-img/hero-image-d.webp);
+      url(/img/hero-section-img/hero-image-d.webp);
   }
 
   .hero-section-title {
@@ -157,6 +157,6 @@
         var(--opacity-neutral-darkest-40) 0%,
         var(--opacity-neutral-darkest-40) 100%
       ),
-      url(../img/hero-section-img/hero-image-d@2x.webp);
+      url(/img/hero-section-img/hero-image-d@2x.webp);
   }
 }
