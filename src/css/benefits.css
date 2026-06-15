@@ -1,5 +1,4 @@
 .benefits {
-  padding: 64px 0;
   background: var(--color-scheme-3-background);
   color: var(--color-scheme-3-text);
   fill: var(--color-scheme-3-text);
@@ -65,10 +64,6 @@
 }
 
 @media (min-width: 1440px) {
-  .benefits {
-    padding-block: 112px;
-  }
-
   .section-title {
     font-size: 48px;
   }

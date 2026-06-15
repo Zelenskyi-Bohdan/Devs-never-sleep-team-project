@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding-block: 64px;
 }
 .mission-text {
   display: flex;
@@ -41,10 +40,6 @@
 }
 
 @media (min-width: 1440px) {
-  .mission-container {
-    padding-block: 112px;
-  }
-
   .mission-container {
     gap: 80px;
   }

@@ -3,7 +3,6 @@
 }
 
 .contacts-container {
-  padding-block: 64px;
   display: flex;
   row-gap: 32px;
   flex-direction: column;
@@ -160,7 +159,6 @@ input:-webkit-autofill:focus:invalid {
 
 @media (min-width: 1440px) {
   .contacts-container {
-    padding-block: 112px;
     flex-direction: row;
     column-gap: 24px;
   }

@@ -4,7 +4,6 @@
 
 .feedbacks_container {
   color: var(--color-scheme-2-text);
-  padding: 64px 16px;
 }
 
 .feedbacks_title_container {
@@ -78,10 +77,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .feedbacks_container {
-    padding: 64px 32px;
-  }
-
   .feedbacks_title_container {
     max-width: 644px;
     margin: 0 auto;
@@ -103,10 +98,6 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .feedbacks_container {
-    padding: 112px 64px;
-  }
-
   .feedbacks_title {
     margin-bottom: 24px;
     font-size: 48px;

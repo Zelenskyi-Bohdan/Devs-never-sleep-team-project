@@ -1,10 +1,10 @@
 .footer {
   background-color: var(--color-scheme-5-background);
   color: var(--color-scheme-5-text);
+  padding-block: 80px;
 }
 
 .footer__container {
-  padding-block: 80px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -92,7 +92,7 @@
 }
 
 @media (min-width: 1440px) {
-  .footer__container {
+  .footer {
     padding-block: 48px;
   }
 

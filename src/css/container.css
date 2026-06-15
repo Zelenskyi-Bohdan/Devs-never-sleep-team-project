@@ -6,6 +6,10 @@
   margin: 0 auto;
   padding: 0 16px;
 }
+
+.section {
+  padding-block: 64px;
+}
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
@@ -18,5 +22,9 @@
   .container {
     max-width: 1440px;
     padding: 0 64px;
+  }
+
+  .section {
+    padding-block: 112px;
   }
 }

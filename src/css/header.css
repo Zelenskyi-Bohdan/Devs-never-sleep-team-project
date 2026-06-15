@@ -1,7 +1,10 @@
+.header {
+  padding-block: 6px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
-  padding-block: 6px;
 }
 
 .header-logo-link {
@@ -54,7 +57,6 @@
 @media only screen and (min-width: 768px) {
   .header-container {
     justify-content: center;
-    padding-block: 6px;
   }
 
   .header-nav-list {
@@ -113,10 +115,6 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .header-container {
-    padding-block: 6px;
-  }
-
   .header-nav {
     display: flex;
     margin-left: auto;

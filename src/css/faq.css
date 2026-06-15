@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-block: 64px;
 }
 
 .faq-info {
@@ -84,7 +83,6 @@
   .faq-container {
     flex-direction: row;
     gap: 24px;
-    padding-block: 112px;
   }
 
   .faq-info {
