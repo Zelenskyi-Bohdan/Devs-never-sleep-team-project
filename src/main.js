@@ -20,7 +20,8 @@ closeMobileMenuButton.addEventListener('click', () => {
 mobileMenu.addEventListener('click', function (event) {
   if (
     event.target.classList.contains('menu-nav-link') ||
-    event.target.classList.contains('menu-order-link')
+    event.target.classList.contains('menu-order-link') ||
+    event.target.classList.contains('menu-logo')
   ) {
     mobileMenu.classList.remove('is-open');
     mobileMenuDark.classList.remove('is-open');
