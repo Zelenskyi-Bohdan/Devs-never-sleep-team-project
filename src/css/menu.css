@@ -86,7 +86,11 @@
 .menu-nav-link:hover,
 .menu-nav-link:focus {
   color: var(--color-scheme-5-text);
-  opacity: 50%;
+  opacity: 0.5;
+}
+
+.menu-nav-link:active {
+  opacity: 0.6;
 }
 
 .menu-order-link {
@@ -106,7 +110,8 @@
   transition:
     color var(--transition),
     border var(--transition),
-    background-color var(--transition);
+    background-color var(--transition),
+    box-shadow var(--transition);
 }
 
 .menu-order-link:hover,
@@ -114,6 +119,13 @@
   border: 1px solid var(--color-white);
   background: var(--color-scheme-3-text);
   color: var(--color-neutral-darkest);
+}
+
+.menu-order-link:active {
+  border: 1px solid var(--color-white);
+  background: var(--color-scheme-3-text);
+  color: var(--color-neutral-darkest);
+  box-shadow: inset 2px 7px 27px -4px rgba(0, 0, 0, 0.15);
 }
 
 @media screen and (min-width: 768px) {
