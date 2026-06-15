@@ -30,15 +30,19 @@
     flex-direction: row;
   }
 
+  .mission-title {
+    flex: 1 0 0;
+  }
+
   .mission-text-desc {
-    max-width: 340px;
+    flex: 1 0 0;
     margin-top: 0;
   }
 }
 
 @media (min-width: 1440px) {
   .mission-container {
-    padding: 112px 0;
+    padding-block: 112px;
   }
 
   .mission-container {
@@ -46,18 +50,15 @@
   }
 
   .mission-text {
-    justify-content: space-between;
     align-items: flex-start;
   }
 
   .mission-title {
     font-size: 48px;
-    max-width: 644px;
     margin: 0;
   }
 
   .mission-text-desc {
     margin-top: 0;
-    max-width: 644px;
   }
 }
