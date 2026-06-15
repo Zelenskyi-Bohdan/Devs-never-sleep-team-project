@@ -107,7 +107,7 @@
 }
 .header-button-order:active {
   border: 1px solid var(--color-scheme-3-text);
-  box-shadow: inset 2px 7px 27px -4px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 2px 7px 27px -4px rvar(--black-shadow-15);
   background-color: var(--color-scheme-3-text);
   color: var(--color-scheme-2-text);
 }
