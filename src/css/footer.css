@@ -66,6 +66,10 @@
   opacity: 0.5;
 }
 
+.footer__social-link:active {
+  opacity: 0.6;
+}
+
 .footer__copyright {
   text-align: center;
   font-size: 14px;
